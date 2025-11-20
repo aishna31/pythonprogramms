@@ -9,6 +9,6 @@ for i in range(0,len(x)):
                 temp=x[i]
                 if(x[i]>x[4]):
                     temp=x[i]
-                print("the max value is", temp )    
+                print("the max value is new", temp )    
 
 
