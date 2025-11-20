@@ -1,0 +1,22 @@
+
+amt=int(input("enter your amount"))
+if(amt>=500):
+    a= int(amt/500)
+    amt=amt-a*500
+    print("500 = ", a)
+if(amt>=200):
+    b=int(amt/200)
+    amt=amt-b*200
+    print("200 = ",b)
+if(amt>=100):
+    c= int(amt/100)
+    amt=amt-c*100
+    print("100 = ",c)
+if(amt>=50):
+    d=int(amt/50)
+    amt=amt-d*50
+    print("50 = ",d)
+if(amt>=20):
+    e=int(amt/20)
+    amt=amt-e*20
+    print("20 = ",e)
