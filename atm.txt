@@ -1,1 +1,1 @@
-total balance = 10000
+account balance = 10000
