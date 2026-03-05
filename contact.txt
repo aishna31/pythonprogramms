@@ -1,0 +1,11 @@
+contacts=
+    chopsticks: 9303355642
+    sanjana: 9522271871 
+    heeral: 7489450866
+    chiya: 8989000956  
+    kavita: 6260933983  
+    aishna: 9329371871
+    varsha: 7773887176
+    ritika: 9424595495   
+    sanjay:9898786785 
+    mom:9589855663

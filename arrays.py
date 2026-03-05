@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 
 a=[1,21,31,42,55,71,14,18]
 max=a[0]
@@ -10,3 +11,19 @@ for i in a:
         min=i   
 print("the max value is",max)  
 print("the min value is", min)        
+=======
+
+a=[1,21,31,42,55,71,14,18]
+max=a[0]
+min=a[0]
+
+for i in a:
+    if i>max:
+        max=i
+    if i<min:
+        min=i
+    if i>max:
+        if i    
+print("the max value is",max)  
+print("the min value is", min)        
+>>>>>>> 3dffd07cfde143da69f20387972a923981707b44

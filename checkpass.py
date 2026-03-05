@@ -1,6 +1,6 @@
 f=open("password.txt","r")
 password=f.read()
-f.close
+f.close()
 password=password.split("=",1)[1]
 print("to access your file you have to enter a password!")
 userpassword=input("enter a password")
@@ -28,3 +28,6 @@ else:
     print("OOPS! your limit is over  bye bye")     
 
 
+
+
+    
