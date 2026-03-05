@@ -17,4 +17,4 @@ if(operator=="%"):
     print(d)
 if(operator=="/"):
     e=num1/num2
-    print(e)         
+    print(e )         
