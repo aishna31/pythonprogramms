@@ -49,7 +49,7 @@ if (userpin==pin):
             accbalance= int(accbalance.split("=")[1])
             newdepositebalance=accbalance+depositeamount
             print(depositeamount,"is successfully added to you account")
-            print("the current balance in your acc after updation is ",newdepositebalance)
+            print("the  current balance in your acc after updation is ",newdepositebalance)
 
 else:
     print("incorrect pin")    
