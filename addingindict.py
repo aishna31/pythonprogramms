@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 x = [
     { "a":1 },
     { "b":2 },
@@ -16,23 +15,4 @@ for i in range(0,len(x)):
      sum+=a
      arr.append({"a" : list(x[i].values())[0]})
 print(arr)
-=======
-x = [
-    { "a":1 },
-    { "b":2 },
-    { "c":3 },
-    { "d":4 },
-    { "e":5 },
-    { "f":6 } 
-]
-
-y = ['a', 'b', 'c', 'd', 'e', 'f']
-sum=0
-arr = []
-for i in range(0,len(x)):
-     a=(x[i][y[i]])
-     sum+=a
-     arr.append({"a" : list(x[i].values())[0]})
-print(arr)
->>>>>>> 3dffd07cfde143da69f20387972a923981707b44
 print(sum)
