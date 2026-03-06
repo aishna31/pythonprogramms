@@ -1,4 +1,3 @@
-# movie duplicate
 movies = [
     {
         "name":"entertainment",
@@ -27,12 +26,8 @@ movies = [
     }    
 ]
 y=[]
-for i in range(0,len(movies)):
-    a=movies[i]["actors"]
-    for j in range(0,len(a)):
-        if(a[j]=="akshay"):
-            b=movies[i]
-            y.append(b)
-movies.remove(y[0])
-movies.remove(y[1])
-print(movies)
+# to remove the movie with same actors
+for i in range(0, len(movies)):
+    a=movies[i]["actors"][0]
+    b=movies[i]["actors"][1]
+    

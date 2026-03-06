@@ -29,10 +29,3 @@ for i in range(0,len(x)):
 a=(z+y)
 a.sort()
 print(a)
-
-           
-
-                 
-        
->>>>>>> 3dffd07cfde143da69f20387972a923981707b44
-    
